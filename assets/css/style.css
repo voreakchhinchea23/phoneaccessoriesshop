@@ -1,6 +1,23 @@
+.footer-link {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.footer-link:hover {
+  color: #0d6efd;
+}
+
+.footer-map iframe {
+  border-radius: 8px;
+}
 .banner-img {
   display: block;
 }
+
+
+
 .mega-menu {
         width: 100%;
         left: 0;
@@ -44,3 +61,5 @@
           padding: 15px;  
         }
       }
+
+    
