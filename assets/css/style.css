@@ -16,7 +16,46 @@
   display: block;
 }
 
+.product-card {
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+  cursor: pointer;
+}
 
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  height: 220px;
+  object-fit: contain;
+  padding: 20px;
+}
+
+.product-card {
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  height: 220px;
+  object-fit: contain;
+  padding: 20px;
+}
+
+main h1,
+main h2 {
+  font-weight: 700;
+}
 
 .mega-menu {
         width: 100%;
