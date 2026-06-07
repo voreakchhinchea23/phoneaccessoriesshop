@@ -1,56 +1,46 @@
-// Slideshow functionality
-let slideIndex = 1;
-let slideTimer;
+const track = document.querySelector(".slideshow-track");
+const slides = document.querySelectorAll(".slide");
+const dots = document.querySelectorAll(".dot");
 
-// Initialize slideshow when page loads
-document.addEventListener('DOMContentLoaded', function() {
-  showSlides(slideIndex);
-  // Auto-advance slides every 5 seconds
-  startAutoSlide();
-});
+let slideIndex = 0;
+const totalSlides = slides.length;
 
-// Next/previous controls
-function plusSlides(n) {
-  clearInterval(slideTimer);
-  showSlides(slideIndex += n);
-  startAutoSlide();
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  clearInterval(slideTimer);
-  showSlides(slideIndex = n);
-  startAutoSlide();
-}
-
-// Main slideshow function
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("slide");
-  let dots = document.getElementsByClassName("dot");
-  
-  if (n > slides.length) { slideIndex = 1 }
-  if (n < 1) { slideIndex = slides.length }
-  
-  // Hide all slides
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+function showSlide(index) {
+  if (index >= totalSlides) {
+    slideIndex = 0;
+  } else if (index < 0) {
+    slideIndex = totalSlides - 1;
+  } else {
+    slideIndex = index;
   }
-  
-  // Remove active class from all dots
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  
-  // Show current slide and activate corresponding dot
-  slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
+
+  track.style.transform = `translateX(-${slideIndex * 100}%)`;
+
+  dots.forEach((dot) => dot.classList.remove("active"));
+  dots[slideIndex].classList.add("active");
 }
 
-// Auto-advance slides
-function startAutoSlide() {
-  slideTimer = setInterval(function() {
-    slideIndex++;
-    showSlides(slideIndex);
-  }, 5000); // Change slide every 5 seconds
+function moveSlide(direction) {
+  showSlide(slideIndex + direction);
+  resetTimer();
 }
+
+function currentSlide(index) {
+  showSlide(index);
+  resetTimer();
+}
+
+/* Auto Slide */
+let slideInterval = setInterval(() => {
+  moveSlide(1);
+}, 5000);
+
+function resetTimer() {
+  clearInterval(slideInterval);
+
+  slideInterval = setInterval(() => {
+    moveSlide(1);
+  }, 5000);
+}
+
+showSlide(slideIndex);
