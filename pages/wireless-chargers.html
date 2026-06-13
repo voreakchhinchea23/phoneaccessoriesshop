@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@400..700&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
@@ -43,15 +47,14 @@
             class="navbar-nav justify-content-center flex-grow-1 mb-2 mb-lg-0 gap-lg-3"
           >
             <li class="nav-item">
-              <a class="nav-link" href="../index.html">Home</a>
+              <a class="nav-link active" href="../index.html">Home</a>
             </li>
 
             <li class="nav-item dropdown mega-dropdown position-static">
               <a
-                class="nav-link dropdown-toggle active"
-                href="#"
+                class="nav-link dropdown-toggle"
+                href="products.html"
                 role="button"
-                data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Collections
@@ -78,9 +81,7 @@
 
                     <div class="col-lg-3 col-md-6 mb-3">
                       <h6 class="fw-bold">Charging</h6>
-                      <a
-                        class="dropdown-item"
-                        href="chargers.html"
+                      <a class="dropdown-item" href="chargers.html"
                         >Fast Chargers</a
                       >
                       <a class="dropdown-item" href="wireless-chargers.html"
@@ -105,7 +106,7 @@
                       <a class="dropdown-item" href="wireless-earbuds.html"
                         >Wireless Earbuds</a
                       >
-                      <a class="dropdown-item" href="bluetooth-speaker.html"
+                      <a class="dropdown-item" href="speakers.html"
                         >Bluetooth Speakers</a
                       >
                     </div>
@@ -139,15 +140,33 @@
             </li>
           </ul>
 
-          <form class="d-flex ms-lg-auto" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-dark" type="submit">Search</button>
-          </form>
+          <!-- Cart and Search Wrapper -->
+          <div class="d-flex align-items-center ms-lg-auto gap-3">
+            <!-- Cart Icon -->
+            <a
+              href="cart.html"
+              class="text-dark text-decoration-none position-relative"
+            >
+              <i class="fa fa-shopping-cart fa-lg"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                id="cart-count"
+              >
+                0
+              </span>
+            </a>
+
+            <!-- Search Form -->
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
         </div>
       </div>
     </nav>
@@ -159,7 +178,8 @@
         <div class="container">
           <h1 class="display-5 fw-bold">Wireless Charging</h1>
           <p class="lead text-white-50">
-            Experience cable-free convenience with our wireless charging pads and stands.
+            Experience cable-free convenience with our wireless charging pads
+            and stands.
           </p>
         </div>
       </section>
@@ -450,9 +470,7 @@
                 <a href="phone-cases.html" class="footer-link">Phone Cases</a>
               </li>
               <li>
-                <a href="chargers.html" class="footer-link"
-                  >Chargers</a
-                >
+                <a href="chargers.html" class="footer-link">Chargers</a>
               </li>
               <li>
                 <a href="earphones.html" class="footer-link">Earphones</a>

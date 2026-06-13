@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@400..700&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
@@ -144,15 +148,33 @@
             </li>
           </ul>
 
-          <form class="d-flex ms-lg-auto" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-dark" type="submit">Search</button>
-          </form>
+          <!-- Cart and Search Wrapper -->
+          <div class="d-flex align-items-center ms-lg-auto gap-3">
+  
+            <a
+              href="pages/cart.html"
+              class="text-dark text-decoration-none position-relative"
+            >
+              <i class="fa fa-shopping-cart fa-lg"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                id="cart-count"
+              >
+                0
+              </span>
+            </a>
+
+            <!-- Search Form -->
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
         </div>
       </div>
     </nav>
@@ -466,9 +488,9 @@
               <li>
                 <a href="pages/products.html" class="footer-link">Products</a>
               </li>
-              <li><a href="about.html" class="footer-link">About</a></li>
-              <li><a href="contact.html" class="footer-link">Contact</a></li>
-              <li><a href="faq.html" class="footer-link">FAQ</a></li>
+              <li><a href="pages/about.html" class="footer-link">About</a></li>
+              <li><a href="pages/contact.html" class="footer-link">Contact</a></li>
+              <li><a href="pages/faq.html" class="footer-link">FAQ</a></li>
             </ul>
           </div>
 
@@ -476,19 +498,19 @@
             <h5>Collections</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="phone-cases.html" class="footer-link">Phone Cases</a>
+                <a href="pages/phone-cases.html" class="footer-link">Phone Cases</a>
               </li>
-              <li><a href="chargers.html" class="footer-link">Chargers</a></li>
+              <li><a href="pages/chargers.html" class="footer-link">Chargers</a></li>
               <li>
-                <a href="earphones.html" class="footer-link">Earphones</a>
+                <a href="pages/earphones.html" class="footer-link">Earphones</a>
               </li>
               <li>
-                <a href="screen-protectors.html" class="footer-link"
+                <a href="pages/screen-protectors.html" class="footer-link"
                   >Screen Protectors</a
                 >
               </li>
               <li>
-                <a href="power-banks.html" class="footer-link">Power Banks</a>
+                <a href="pages/power-banks.html" class="footer-link">Power Banks</a>
               </li>
             </ul>
           </div>

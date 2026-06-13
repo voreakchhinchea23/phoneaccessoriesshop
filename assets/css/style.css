@@ -30,7 +30,6 @@
   overflow: hidden;
 }
 
-
 .slideshow-track {
   display: flex;
   height: 100%;
@@ -154,48 +153,48 @@ main h2 {
 }
 
 .mega-menu {
-        width: 100%;
-        left: 0;
-        right: 0;
-        top: 100%;
-        border: none;
-        border-radius: 0;
-        padding: 0;
-        margin-top: 0;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
-      }
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 100%;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin-top: 0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
 
-      .mega-menu h6 {
-        font-size: 15px;
-        margin-bottom: 12px;
-      }
+.mega-menu h6 {
+  font-size: 15px;
+  margin-bottom: 12px;
+}
 
-      .mega-menu .dropdown-item {
-        padding: 6px 0;
-        font-size: 14px;
-        color: #555;
-      }
+.mega-menu .dropdown-item {
+  padding: 6px 0;
+  font-size: 14px;
+  color: #555;
+}
 
-      .mega-menu .dropdown-item:hover {
-        background: transparent;
-        color: #000;
-        padding-left: 5px;
-      }
+.mega-menu .dropdown-item:hover {
+  background: transparent;
+  color: #000;
+  padding-left: 5px;
+}
 
-      @media (min-width: 992px) {
-        .mega-dropdown:hover .mega-menu {
-          display: block;
-        }
-      }
+@media (min-width: 992px) {
+  .mega-dropdown:hover .mega-menu {
+    display: block;
+  }
+}
 
-      @media (max-width: 991px) {
-        .mega-menu {
-          position: static;
-          width: 100%;
-          box-shadow: none;
-          padding: 15px;  
-        }
-      }
+@media (max-width: 991px) {
+  .mega-menu {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    padding: 15px;
+  }
+}
 
 .product-box {
   border: none;
@@ -225,4 +224,28 @@ main h2 {
 
 .product-box .btn {
   border-radius: 10px;
+}
+
+.product-image {
+  max-height: 500px;
+  object-fit: contain;
+}
+.product-info {
+  padding: 2rem;
+}
+.product-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+.product-description {
+  color: #666;
+  line-height: 1.6;
+}
+.quantity-selector {
+  max-width: 150px;
+}
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #000;
 }

@@ -1,168 +1,163 @@
-  <!doctype html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Product Details - VRS</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Phone Case - VRS</title>
 
-      <link
-        rel="stylesheet"
-        href="../assets/vendor/bootstrap/css/bootstrap.min.css"
-      />
-      <link rel="stylesheet" href="../assets/css/style.css" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@400..700&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
-        rel="stylesheet"
-      />
-      <style>
-        .product-image {
-          max-height: 500px;
-          object-fit: contain;
-        }
-        .product-info {
-          padding: 2rem;
-        }
-        .product-price {
-          font-size: 2rem;
-          font-weight: bold;
-          color: #333;
-        }
-        .product-description {
-          color: #666;
-          line-height: 1.6;
-        }
-        .quantity-selector {
-          max-width: 150px;
-        }
-        .breadcrumb-item a {
-          text-decoration: none;
-          color: #000;
-        }
-      </style>
-    </head>
+    <link
+      rel="stylesheet"
+      href="../assets/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@400..700&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-    <body>
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid position-relative">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../assets/images/logo.png" alt="VRS logo" width="50" />
-          </a>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid position-relative">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/images/logo.png" alt="VRS logo" width="50" />
+        </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav justify-content-center flex-grow-1 mb-2 mb-lg-0 gap-lg-3"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <li class="nav-item">
+              <a class="nav-link active" href="../index.html">Home</a>
+            </li>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul
-              class="navbar-nav justify-content-center flex-grow-1 mb-2 mb-lg-0 gap-lg-3"
-            >
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Home</a>
-              </li>
+            <li class="nav-item dropdown mega-dropdown position-static">
+              <a
+                class="nav-link dropdown-toggle"
+                href="products.html"
+                role="button"
+                aria-expanded="false"
+              >
+                Collections
+              </a>
 
-              <li class="nav-item dropdown mega-dropdown position-static">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Collections
-                </a>
+              <div class="dropdown-menu mega-menu">
+                <div class="container">
+                  <div class="row py-4">
+                    <div class="col-lg-3 col-md-6 mb-3">
+                      <h6 class="fw-bold">Protection</h6>
+                      <a class="dropdown-item" href="phone-cases.html"
+                        >Phone Cases</a
+                      >
+                      <a class="dropdown-item" href="samsung-cases.html"
+                        >Samsung Cases</a
+                      >
+                      <a class="dropdown-item" href="screen-protectors.html"
+                        >Screen Protectors</a
+                      >
+                      <a class="dropdown-item" href="camera-protectors.html"
+                        >Camera Protectors</a
+                      >
+                    </div>
 
-                <div class="dropdown-menu mega-menu">
-                  <div class="container">
-                    <div class="row py-4">
-                      <div class="col-lg-3 col-md-6 mb-3">
-                        <h6 class="fw-bold">Protection</h6>
-                        <a class="dropdown-item" href="phone-cases.html"
-                          >Phone Cases</a
-                        >
-                        <a class="dropdown-item" href="samsung-cases.html"
-                          >Samsung Cases</a
-                        >
-                        <a class="dropdown-item" href="screen-protectors.html"
-                          >Screen Protectors</a
-                        >
-                        <a class="dropdown-item" href="camera-protectors.html"
-                          >Camera Protectors</a
-                        >
-                      </div>
+                    <div class="col-lg-3 col-md-6 mb-3">
+                      <h6 class="fw-bold">Charging</h6>
+                      <a class="dropdown-item" href="chargers.html"
+                        >Fast Chargers</a
+                      >
+                      <a class="dropdown-item" href="wireless-chargers.html"
+                        >Wireless Chargers</a
+                      >
+                      <a class="dropdown-item" href="power-banks.html"
+                        >Power Banks</a
+                      >
+                      <a class="dropdown-item" href="charging-cables.html"
+                        >Charging Cables</a
+                      >
+                    </div>
 
-                      <div class="col-lg-3 col-md-6 mb-3">
-                        <h6 class="fw-bold">Charging</h6>
-                        <a class="dropdown-item" href="chargers.html"
-                          >Fast Chargers</a
-                        >
-                        <a class="dropdown-item" href="wireless-chargers.html"
-                          >Wireless Chargers</a
-                        >
-                        <a class="dropdown-item" href="power-banks.html"
-                          >Power Banks</a
-                        >
-                        <a class="dropdown-item" href="charging-cables.html"
-                          >Charging Cables</a
-                        >
-                      </div>
+                    <div class="col-lg-3 col-md-6 mb-3">
+                      <h6 class="fw-bold">Audio</h6>
+                      <a class="dropdown-item" href="earphones.html"
+                        >Earphones</a
+                      >
+                      <a class="dropdown-item" href="headphones.html"
+                        >Headphones</a
+                      >
+                      <a class="dropdown-item" href="wireless-earbuds.html"
+                        >Wireless Earbuds</a
+                      >
+                      <a class="dropdown-item" href="speakers.html"
+                        >Bluetooth Speakers</a
+                      >
+                    </div>
 
-                      <div class="col-lg-3 col-md-6 mb-3">
-                        <h6 class="fw-bold">Audio</h6>
-                        <a class="dropdown-item" href="earphones.html"
-                          >Earphones</a
-                        >
-                        <a class="dropdown-item" href="headphones.html"
-                          >Headphones</a
-                        >
-                        <a class="dropdown-item" href="wireless-earbuds.html"
-                          >Wireless Earbuds</a
-                        >
-                        <a class="dropdown-item" href="bluetooth-speaker.html"
-                          >Bluetooth Speakers</a
-                        >
-                      </div>
-
-                      <div class="col-lg-3 col-md-6 mb-3">
-                        <h6 class="fw-bold">Daily Accessories</h6>
-                        <a class="dropdown-item" href="phone-stands.html"
-                          >Phone Stands</a
-                        >
-                        <a class="dropdown-item" href="car-holders.html"
-                          >Car Holders</a
-                        >
-                        <a class="dropdown-item" href="smart-watches.html"
-                          >Smart Watches</a
-                        >
-                        <a class="dropdown-item" href="products.html"
-                          >All Collections</a
-                        >
-                      </div>
+                    <div class="col-lg-3 col-md-6 mb-3">
+                      <h6 class="fw-bold">Daily Accessories</h6>
+                      <a class="dropdown-item" href="phone-stands.html"
+                        >Phone Stands</a
+                      >
+                      <a class="dropdown-item" href="car-holders.html"
+                        >Car Holders</a
+                      >
+                      <a class="dropdown-item" href="smart-watches.html"
+                        >Smart Watches</a
+                      >
+                      <a class="dropdown-item" href="products.html"
+                        >All Collections</a
+                      >
                     </div>
                   </div>
                 </div>
-              </li>
+              </div>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
 
-            <form class="d-flex ms-lg-auto" role="search">
+          <!-- Cart and Search Wrapper -->
+          <div class="d-flex align-items-center ms-lg-auto gap-3">
+            <!-- Cart Icon -->
+            <a
+              href="cart.html"
+              class="text-dark text-decoration-none position-relative"
+            >
+              <i class="fa fa-shopping-cart fa-lg"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                id="cart-count"
+              >
+                0
+              </span>
+            </a>
+
+            <!-- Search Form -->
+            <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
                 type="search"
@@ -173,496 +168,342 @@
             </form>
           </div>
         </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <main class="container my-5">
+      <!-- Breadcrumb -->
+      <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="products.html">Products</a></li>
+          <li class="breadcrumb-item">
+            <a href="phone-cases.html">Phone Cases</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Matte Black Case
+          </li>
+        </ol>
       </nav>
-      <!-- End Navbar -->
 
-      <main class="container my-5">
-        <!-- Breadcrumb -->
-        <nav aria-label="breadcrumb" class="mb-4">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-            <li class="breadcrumb-item"><a href="products.html">Products</a></li>
-            <li class="breadcrumb-item"><a href="#" id="categoryLink">Category</a></li>
-            <li class="breadcrumb-item active" aria-current="page" id="currentProduct">Product</li>
-          </ol>
-        </nav>
-
-        <!-- Product Details Section -->
-        <div class="row g-5">
-          <!-- Product Image -->
-          <div class="col-lg-6">
-            <div class="card border-0">
+      <!-- Product Details Section -->
+      <div class="row g-5">
+        <!-- Product Image -->
+        <div class="col-lg-6">
+          <div class="card border-0">
+            <img
+              src="../assets/images/products/phonecase.png"
+              alt="Premium Phone Case"
+              class="card-img-top product-image"
+            />
+          </div>
+          <!-- Thumbnail images -->
+          <div
+            class="row g-2 mt-2"
+            id="thumbnailContainer"
+            style="display: none"
+          >
+            <div class="col-3">
               <img
                 src=""
-                alt="Product Image"
-                class="card-img-top product-image"
-                id="productImage"
+                alt="Thumbnail 1"
+                class="img-thumbnail"
+                style="cursor: pointer"
               />
             </div>
-            <!-- Thumbnail images (optional) -->
-            <div class="row g-2 mt-2" id="thumbnailContainer" style="display: none;">
-              <div class="col-3">
-                <img src="" alt="Thumbnail 1" class="img-thumbnail" style="cursor: pointer;" />
-              </div>
-              <div class="col-3">
-                <img src="" alt="Thumbnail 2" class="img-thumbnail" style="cursor: pointer;" />
-              </div>
-              <div class="col-3">
-                <img src="" alt="Thumbnail 3" class="img-thumbnail" style="cursor: pointer;" />
-              </div>
-              <div class="col-3">
-                <img src="" alt="Thumbnail 4" class="img-thumbnail" style="cursor: pointer;" />
-              </div>
+            <div class="col-3">
+              <img
+                src=""
+                alt="Thumbnail 2"
+                class="img-thumbnail"
+                style="cursor: pointer"
+              />
             </div>
-          </div>
-
-          <!-- Product Info -->
-          <div class="col-lg-6">
-            <div class="product-info">
-              <h1 class="fw-bold mb-3" id="productName">Product Name</h1>
-              
-              <div class="mb-3">
-                <span class="product-price" id="productPrice">$0.00</span>
-              </div>
-
-              <div class="mb-4">
-                <p class="product-description" id="productDescription">
-                  Product description will appear here.
-                </p>
-              </div>
-
-              <!-- Features/Specifications -->
-              <div class="mb-4">
-                <h5 class="fw-bold mb-3">Features</h5>
-                <ul class="list-unstyled" id="productFeatures">
-                  <li>Feature 1</li>
-                  <li>Feature 2</li>
-                  <li>Feature 3</li>
-                </ul>
-              </div>
-
-              <!-- Quantity Selector -->
-              <div class="mb-4">
-                <label for="quantity" class="form-label fw-bold">Quantity</label>
-                <div class="d-flex align-items-center">
-                  <button class="btn btn-outline-secondary" type="button" id="decreaseQty">-</button>
-                  <input
-                    type="text"
-                    class="form-control text-center quantity-selector"
-                    id="quantity"
-                    value="1"
-                    readonly
-                  />
-                  <button class="btn btn-outline-secondary" type="button" id="increaseQty">+</button>
-                </div>
-              </div>
-
-              <!-- Add to Cart Button -->
-              <div class="d-grid gap-2 d-md-block">
-                <button class="btn btn-dark btn-lg me-md-2" type="button" id="addToCartBtn">
-                  Add to Cart
-                </button>
-                <button class="btn btn-outline-dark btn-lg" type="button">
-                  Buy Now
-                </button>
-              </div>
-
-              <!-- Additional Info -->
-              <div class="mt-4 pt-4 border-top">
-                <div class="row">
-                  <div class="col-6">
-                    <small class="text-muted">
-                      <i class="bi bi-truck"></i> Free Shipping
-                    </small>
-                  </div>
-                  <div class="col-6">
-                    <small class="text-muted">
-                      <i class="bi bi-shield-check"></i> 1 Year Warranty
-                    </small>
-                  </div>
-                </div>
-              </div>
+            <div class="col-3">
+              <img
+                src=""
+                alt="Thumbnail 3"
+                class="img-thumbnail"
+                style="cursor: pointer"
+              />
+            </div>
+            <div class="col-3">
+              <img
+                src=""
+                alt="Thumbnail 4"
+                class="img-thumbnail"
+                style="cursor: pointer"
+              />
             </div>
           </div>
         </div>
 
-        <!-- Related Products Section -->
-        <section class="mt-5 pt-5">
-          <h2 class="fw-bold mb-4">Related Products</h2>
-          <div class="row g-4" id="relatedProducts">
-            <!-- Related products will be dynamically loaded -->
-          </div>
-        </section>
-      </main>
+        <!-- Product Info -->
+        <div class="col-lg-6">
+          <div class="product-info">
+            <h1 class="fw-bold mb-3">Matte Black Case</h1>
 
-      <!-- Footer -->
-      <footer class="bg-dark text-light py-4 mt-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 mb-3">
-              <h5>VRS</h5>
-              <p class="text-muted">Your trusted source for quality phone accessories.</p>
+            <div class="mb-3">
+              <span class="product-price">$14.99</span>
             </div>
-            <div class="col-md-4 mb-3">
-              <h5>Quick Links</h5>
-              <ul class="list-unstyled">
-                <li><a href="../index.html" class="text-muted text-decoration-none">Home</a></li>
-                <li><a href="products.html" class="text-muted text-decoration-none">Products</a></li>
-                <li><a href="about.html" class="text-muted text-decoration-none">About</a></li>
-                <li><a href="contact.html" class="text-muted text-decoration-none">Contact</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4 mb-3">
-              <h5>Contact Us</h5>
-              <p class="text-muted">
-                Email: support@vrs.com<br />
-                Phone: +1 234 567 890
+
+            <div class="mb-4">
+              <p class="product-description">
+                Protect your phone in style with our premium phone case. Made
+                from high-quality materials, this case offers excellent
+                protection against drops, scratches, and daily wear while
+                maintaining a sleek and modern look.
               </p>
             </div>
-          </div>
-          <hr class="bg-light" />
-          <div class="text-center text-muted">
-            <small>&copy; 2024 VRS. All rights reserved.</small>
+
+            <!-- Features/Specifications -->
+            <div class="mb-4">
+              <h5 class="fw-bold mb-3">Features</h5>
+              <ul class="list-unstyled">
+                <li>&check; Shock-absorbing TPU material</li>
+                <li>&check; Precise cutouts for all ports</li>
+                <li>&check; Raised edges for screen and camera protection</li>
+                <li>&check; Slim and lightweight design</li>
+                <li>&check; Available in multiple colors</li>
+              </ul>
+            </div>
+
+            <!-- Quantity Selector -->
+            <div class="mb-4">
+              <label for="quantity" class="form-label fw-bold">Quantity</label>
+              <div class="d-flex align-items-center">
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  id="decreaseQty"
+                >
+                  -
+                </button>
+                <input
+                  type="text"
+                  class="form-control text-center quantity-selector"
+                  id="quantity"
+                  value="1"
+                  readonly
+                />
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  id="increaseQty"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+
+            <!-- Add to Cart Button -->
+            <div class="d-grid gap-2 d-md-block">
+              <button
+                class="btn btn-dark btn-lg me-md-2"
+                type="button"
+                id="addToCartBtn"
+              >
+                Add to Cart
+              </button>
+              <a href="cart.html" class="btn btn-outline-dark btn-lg">
+                Buy Now
+              </a>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="mt-4 pt-4 border-top">
+              <div class="row">
+                <div class="col-6">
+                  <small class="text-muted">
+                    <i class="bi bi-truck"></i> Free Shipping
+                  </small>
+                </div>
+                <div class="col-6">
+                  <small class="text-muted">
+                    <i class="bi bi-shield-check"></i> 1 Year Warranty
+                  </small>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </footer>
+      </div>
 
-      <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script>
-        // Product database (static data for demonstration)
-        const products = {
-          'phone-case': {
-            name: 'Premium Phone Case',
-            price: 29.99,
-            image: '../assets/images/products/phonecase.png',
-            category: 'phone-cases.html',
-            categoryName: 'Phone Cases',
-            description: 'Protect your phone in style with our premium phone case. Made from high-quality materials, this case offers excellent protection against drops, scratches, and daily wear while maintaining a sleek and modern look.',
-            features: [
-              'Shock-absorbing TPU material',
-              'Precise cutouts for all ports',
-              'Raised edges for screen and camera protection',
-              'Slim and lightweight design',
-              'Available in multiple colors'
-            ]
-          },
-          'samsung-case': {
-            name: 'Samsung Galaxy Case',
-            price: 34.99,
-            image: '../assets/images/products/samsung-case.png',
-            category: 'samsung-cases.html',
-            categoryName: 'Samsung Cases',
-            description: 'Custom-designed case for Samsung Galaxy devices. Perfect fit with premium protection and stylish design.',
-            features: [
-              'Custom fit for Samsung devices',
-              'Dual-layer protection',
-              'Wireless charging compatible',
-              'Anti-slip grip texture',
-              'Easy access to all buttons'
-            ]
-          },
-          'screen-protector': {
-            name: 'Tempered Glass Screen Protector',
-            price: 14.99,
-            image: '../assets/images/products/screenprotector.png',
-            category: 'screen-protectors.html',
-            categoryName: 'Screen Protectors',
-            description: 'Ultra-clear tempered glass screen protector that provides maximum protection without compromising touch sensitivity or display clarity.',
-            features: [
-              '9H hardness tempered glass',
-              '99% transparency',
-              'Oleophobic coating',
-              'Bubble-free installation',
-              'Case-friendly design'
-            ]
-          },
-          'camera-protector': {
-            name: 'Camera Lens Protector',
-            price: 12.99,
-            image: '../assets/images/products/cameraprotector.png',
-            category: 'camera-protectors.html',
-            categoryName: 'Camera Protectors',
-            description: 'Keep your camera lenses safe from scratches and damage with our precision-cut lens protectors.',
-            features: [
-              'HD clarity for perfect photos',
-              'Scratch-resistant coating',
-              'Easy installation',
-              'Ultra-thin design',
-              'Compatible with most cases'
-            ]
-          },
-          'charger': {
-            name: 'Fast Wall Charger',
-            price: 24.99,
-            image: '../assets/images/products/charger.png',
-            category: 'chargers.html',
-            categoryName: 'Fast Chargers',
-            description: 'High-speed wall charger with advanced safety features. Charge your devices quickly and safely.',
-            features: [
-              'Fast charging technology',
-              'Multiple safety protections',
-              'Compact design',
-              'Universal compatibility',
-              'Energy efficient'
-            ]
-          },
-          'wireless-charger': {
-            name: 'Wireless Charging Pad',
-            price: 39.99,
-            image: '../assets/images/products/wirelesscharging.png',
-            category: 'wireless-chargers.html',
-            categoryName: 'Wireless Chargers',
-            description: 'Convenient wireless charging pad with fast charging capability. Simply place your device and start charging.',
-            features: [
-              '15W fast wireless charging',
-              'LED indicator light',
-              'Overheat protection',
-              'Non-slip surface',
-              'Case-friendly (up to 5mm)'
-            ]
-          },
-          'power-bank': {
-            name: 'Portable Power Bank 20000mAh',
-            price: 49.99,
-            image: '../assets/images/products/powerbank.png',
-            category: 'power-banks.html',
-            categoryName: 'Power Banks',
-            description: 'High-capacity power bank to keep your devices charged on the go. Multiple ports for charging multiple devices simultaneously.',
-            features: [
-              '20000mAh capacity',
-              'Dual USB output ports',
-              'USB-C input/output',
-              'LED battery indicator',
-              'Fast charging support'
-            ]
-          },
-          'charging-cable': {
-            name: 'Braided USB-C Cable',
-            price: 16.99,
-            image: '../assets/images/products/fastchargecable.png',
-            category: 'charging-cables.html',
-            categoryName: 'Charging Cables',
-            description: 'Durable braided charging cable designed for everyday use. Fast charging and data transfer supported.',
-            features: [
-              'Nylon braided design',
-              'Fast charging up to 3A',
-              'Data transfer support',
-              'Tangle-free',
-              '10000+ bend lifespan'
-            ]
-          },
-          'earphones': {
-            name: 'Wired Earphones',
-            price: 19.99,
-            image: '../assets/images/products/earphones.png',
-            category: 'earphones.html',
-            categoryName: 'Earphones',
-            description: 'Classic wired earphones with excellent sound quality. Comfortable fit for extended listening sessions.',
-            features: [
-              'High-quality audio drivers',
-              'Built-in microphone',
-              'Inline controls',
-              'Comfortable ear tips',
-              'Tangle-free cable'
-            ]
-          },
-          'headphones': {
-            name: 'Over-Ear Headphones',
-            price: 79.99,
-            image: '../assets/images/products/headphones.png',
-            category: 'headphones.html',
-            categoryName: 'Headphones',
-            description: 'Premium over-ear headphones with exceptional sound quality and comfort. Perfect for music lovers and professionals.',
-            features: [
-              '40mm drivers',
-              'Noise isolation',
-              'Padded ear cups',
-              'Adjustable headband',
-              'Detachable cable'
-            ]
-          },
-          'wireless-earbuds': {
-            name: 'True Wireless Earbuds',
-            price: 89.99,
-            image: '../assets/images/products/earbuds.png',
-            category: 'wireless-earbuds.html',
-            categoryName: 'Wireless Earbuds',
-            description: 'Premium true wireless earbuds with active noise cancellation and long battery life. Experience freedom without wires.',
-            features: [
-              'Active noise cancellation',
-              'Touch controls',
-              'IPX5 water resistance',
-              '24-hour battery with case',
-              'Premium sound quality'
-            ]
-          },
-          'bluetooth-speaker': {
-            name: 'Portable Bluetooth Speaker',
-            price: 59.99,
-            image: '../assets/images/products/bluetooth-speaker.png',
-            category: 'bluetooth-speaker.html',
-            categoryName: 'Bluetooth Speakers',
-            description: 'Compact Bluetooth speaker with powerful sound. Take your music anywhere with this portable speaker.',
-            features: [
-              '360-degree sound',
-              '12-hour battery life',
-              'Bluetooth 5.0',
-              'Water-resistant design',
-              'Built-in microphone'
-            ]
-          },
-          'phone-stand': {
-            name: 'Adjustable Phone Stand',
-            price: 22.99,
-            image: '../assets/images/products/phonestand.png',
-            category: 'phone-stands.html',
-            categoryName: 'Phone Stands',
-            description: 'Versatile adjustable phone stand for desk use. Perfect for video calls, watching videos, or following recipes.',
-            features: [
-              'Adjustable viewing angle',
-              'Sturdy aluminum construction',
-              'Non-slip base',
-              'Foldable design',
-              'Universal compatibility'
-            ]
-          },
-          'car-holder': {
-            name: 'Magnetic Car Phone Holder',
-            price: 27.99,
-            image: '../assets/images/products/carholder.png',
-            category: 'car-holders.html',
-            categoryName: 'Car Holders',
-            description: 'Secure magnetic car phone holder for safe hands-free driving. Easy installation and strong hold.',
-            features: [
-              'Strong magnetic hold',
-              '360-degree rotation',
-              'Easy one-hand operation',
-              'Vent clip mount',
-              'Includes metal plates'
-            ]
-          },
-          'smart-watch': {
-            name: 'Smart Watch',
-            price: 149.99,
-            image: '../assets/images/products/smartwatch.png',
-            category: 'smart-watches.html',
-            categoryName: 'Smart Watches',
-            description: 'Feature-rich smart watch with health tracking, notifications, and long battery life. Stay connected on your wrist.',
-            features: [
-              'Heart rate monitor',
-              'Sleep tracking',
-              'Multiple sport modes',
-              '7-day battery life',
-              'Water-resistant IP68'
-            ]
-          }
-        };
-
-        // Get product ID from URL parameter
-        function getProductId() {
-          const urlParams = new URLSearchParams(window.location.search);
-          return urlParams.get('id') || 'phone-case'; // Default to phone-case
-        }
-
-        // Load product details
-        function loadProductDetails() {
-          const productId = getProductId();
-          const product = products[productId];
-
-          if (!product) {
-            // Product not found, show error or redirect
-            document.getElementById('productName').textContent = 'Product Not Found';
-            document.getElementById('productDescription').textContent = 'Sorry, the product you are looking for does not exist.';
-            document.getElementById('productPrice').textContent = '$0.00';
-            return;
-          }
-
-          // Update page title
-          document.title = `${product.name} - VRS`;
-
-          // Update breadcrumb
-          document.getElementById('categoryLink').textContent = product.categoryName;
-          document.getElementById('categoryLink').href = product.category;
-          document.getElementById('currentProduct').textContent = product.name;
-
-          // Update product details
-          document.getElementById('productName').textContent = product.name;
-          document.getElementById('productPrice').textContent = `$${product.price.toFixed(2)}`;
-          document.getElementById('productImage').src = product.image;
-          document.getElementById('productImage').alt = product.name;
-          document.getElementById('productDescription').textContent = product.description;
-
-          // Update features
-          const featuresList = document.getElementById('productFeatures');
-          featuresList.innerHTML = '';
-          product.features.forEach(feature => {
-            const li = document.createElement('li');
-            li.textContent = `✓ ${feature}`;
-            featuresList.appendChild(li);
-          });
-
-          // Load related products
-          loadRelatedProducts(product.category);
-        }
-
-        // Load related products
-        function loadRelatedProducts(category) {
-          const relatedContainer = document.getElementById('relatedProducts');
-          relatedContainer.innerHTML = '';
-
-          // Get products from same category
-          const relatedProducts = Object.entries(products)
-            .filter(([id, product]) => product.category === category)
-            .slice(0, 4); // Show max 4 related products
-
-          relatedProducts.forEach(([id, product]) => {
-            const col = document.createElement('div');
-            col.className = 'col-lg-3 col-md-6';
-            col.innerHTML = `
-              <a href="product-details.html?id=${id}" class="text-decoration-none text-dark">
-                <div class="card h-100 product-card">
-                  <img src="${product.image}" class="card-img-top" alt="${product.name}" />
-                  <div class="card-body text-center">
-                    <h5 class="card-title">${product.name}</h5>
-                    <p class="card-text text-muted">$${product.price.toFixed(2)}</p>
-                  </div>
+      <!-- Related Products Section -->
+      <section class="mt-5 pt-5">
+        <h2 class="fw-bold mb-4">Related Products</h2>
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <a
+              href="product-details.html?id=samsung-case"
+              class="text-decoration-none text-dark"
+            >
+              <div class="card h-100 product-card">
+                <img
+                  src="../assets/images/products/samsung-case.png"
+                  class="card-img-top"
+                  alt="Samsung Galaxy Case"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Samsung Galaxy Case</h5>
+                  <p class="card-text text-muted">$34.99</p>
                 </div>
-              </a>
-            `;
-            relatedContainer.appendChild(col);
-          });
-        }
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a
+              href="product-details.html?id=screen-protector"
+              class="text-decoration-none text-dark"
+            >
+              <div class="card h-100 product-card">
+                <img
+                  src="../assets/images/products/screenprotector.png"
+                  class="card-img-top"
+                  alt="Screen Protector"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Screen Protector</h5>
+                  <p class="card-text text-muted">$14.99</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a
+              href="product-details.html?id=camera-protector"
+              class="text-decoration-none text-dark"
+            >
+              <div class="card h-100 product-card">
+                <img
+                  src="../assets/images/products/cameraprotector.png"
+                  class="card-img-top"
+                  alt="Camera Protector"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Camera Protector</h5>
+                  <p class="card-text text-muted">$12.99</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
 
-        // Quantity selector functionality
-        document.addEventListener('DOMContentLoaded', function() {
-          loadProductDetails();
+    <!--Footer-->
+    <footer class="bg-light text-dark mt-5 pt-5 pb-3">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <img
+              src="../assets/images/logo.png"
+              alt="VRS Logo"
+              width="70"
+              class="mb-3"
+            />
+            <h5>VRS Accessories</h5>
+            <p class="text-dark-50">
+              Premium phone accessories for protection, charging, sound, and
+              everyday use.
+            </p>
+          </div>
 
-          const quantityInput = document.getElementById('quantity');
-          const decreaseBtn = document.getElementById('decreaseQty');
-          const increaseBtn = document.getElementById('increaseQty');
+          <div class="col-lg-2 col-md-6">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="footer-link">Home</a></li>
+              <li><a href="products.html" class="footer-link">Products</a></li>
+              <li><a href="about.html" class="footer-link">About</a></li>
+              <li><a href="contact.html" class="footer-link">Contact</a></li>
+              <li><a href="faq.html" class="footer-link">FAQ</a></li>
+            </ul>
+          </div>
 
-          decreaseBtn.addEventListener('click', function() {
-            let value = parseInt(quantityInput.value);
-            if (value > 1) {
-              quantityInput.value = value - 1;
-            }
-          });
+          <div class="col-lg-3 col-md-6">
+            <h5>Collections</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="phone-cases.html" class="footer-link">Phone Cases</a>
+              </li>
+              <li>
+                <a href="chargers.html" class="footer-link">Chargers</a>
+              </li>
+              <li>
+                <a href="earphones.html" class="footer-link">Earphones</a>
+              </li>
+              <li>
+                <a href="screen-protectors.html" class="footer-link"
+                  >Screen Protectors</a
+                >
+              </li>
+              <li>
+                <a href="power-banks.html" class="footer-link">Power Banks</a>
+              </li>
+            </ul>
+          </div>
 
-          increaseBtn.addEventListener('click', function() {
-            let value = parseInt(quantityInput.value);
-            if (value < 99) {
-              quantityInput.value = value + 1;
-            }
-          });
+          <div class="col-lg-4 col-md-6">
+            <h5>Find Us</h5>
+            <p class="text-muted mb-2">
+              Norton University, Phnom Penh, Cambodia
+            </p>
 
-          // Add to cart button
-          document.getElementById('addToCartBtn').addEventListener('click', function() {
-            const productId = getProductId();
-            const product = products[productId];
-            const quantity = quantityInput.value;
-            alert(`Added ${quantity} x ${product.name} to cart!`);
-          });
+            <div class="footer-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.7422499187787!2d104.92754557513494!3d11.588110788614335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310953fd9f9a51e9%3A0xc26eafcd2ed5ca29!2sNorton%20University!5e1!3m2!1sen!2skh!4v1779378418404!5m2!1sen!2skh"
+                width="100%"
+                height="180"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-secondary mt-4" />
+
+        <div class="text-center text-muted">
+          <p class="mb-0">
+            &copy; 2026 VRS Phone Accessories. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--End Footer-->
+
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const quantityInput = document.getElementById("quantity");
+        const decreaseBtn = document.getElementById("decreaseQty");
+        const increaseBtn = document.getElementById("increaseQty");
+
+        decreaseBtn.addEventListener("click", function () {
+          let value = parseInt(quantityInput.value);
+          if (value > 1) {
+            quantityInput.value = value - 1;
+          }
         });
-      </script>
-    </body>
-  </html>
+
+        increaseBtn.addEventListener("click", function () {
+          let value = parseInt(quantityInput.value);
+          if (value < 99) {
+            quantityInput.value = value + 1;
+          }
+        });
+
+        document
+          .getElementById("addToCartBtn")
+          .addEventListener("click", function () {
+            const quantity = quantityInput.value;
+            alert(`Added ${quantity} x Premium Phone Case to cart!`);
+          });
+      });
+    </script>
+  </body>
+</html>
