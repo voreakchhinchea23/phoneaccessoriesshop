@@ -185,7 +185,6 @@
       
       <section class="container my-5">
         <div class="row g-4" id="phone-cases-products">
-          <!-- Products will be loaded dynamically from product.js -->
         </div>
       </section>
     </main>
@@ -275,7 +274,7 @@
     <script src="../assets/js/script.js"></script>
     <script src="../assets/js/product.js"></script>
     <script>
-      // Load phone case products dynamically when page loads
+      // Load phone case products 
       document.addEventListener('DOMContentLoaded', function() {
         const phoneCaseProducts = getProductsByCategory('phone-cases');
         renderProducts('phone-cases-products', phoneCaseProducts);

@@ -1,15 +1,16 @@
-// Product Data Store for VRS
+
 // This file contains all product information organized by category
 
 const products = [
-  // Protection Category
+  // ==================== PROTECTION CATEGORY ====================
+  // Phone Cases (8 products)
   {
     id: 1,
     name: "Ultra Slim Phone Case",
     category: "phone-cases",
     price: 15.99,
     image: "phonecase.png",
-    description: "Ultra-thin, lightweight protection with a matte finish."
+    description: "Ultra-thin, lightweight protection with a matte finish.",
   },
   {
     id: 2,
@@ -17,7 +18,7 @@ const products = [
     category: "phone-cases",
     price: 19.99,
     image: "phonecase.png",
-    description: "Heavy-duty protection with shock-absorbing technology."
+    description: "Heavy-duty protection with shock-absorbing technology.",
   },
   {
     id: 3,
@@ -25,15 +26,65 @@ const products = [
     category: "phone-cases",
     price: 12.99,
     image: "phonecase.png",
-    description: "Crystal clear case that shows off your phone's design."
+    description: "Crystal clear case that shows off your phone's design.",
   },
+  {
+    id: 33,
+    name: "Kawaii Cute Bear Case",
+    category: "phone-cases",
+    price: 11.99,
+    image: "phonecase.png",
+    description: "Adorable bear design case with soft silicone edges for a fun look and solid protection.",
+  },
+  {
+    id: 34,
+    name: "Marble Pattern PC Case",
+    category: "phone-cases",
+    price: 13.99,
+    image: "phonecase.png",
+    description: "Sleek polycarbonate case with a stylish marble finish and anti-fingerprint coating.",
+  },
+  {
+    id: 35,
+    name: "Wallet Flip Case",
+    category: "phone-cases",
+    price: 18.99,
+    image: "phonecase.png",
+    description: "Premium PU leather folio with card slots and a built-in stand for hands-free viewing.",
+  },
+  {
+    id: 36,
+    name: "Luxury Diamond Glitter Case",
+    category: "phone-cases",
+    price: 22.99,
+    image: "phonecase.png",
+    description: "Sparkling epoxy resin case with a 3D diamond texture for a glamorous look.",
+  },
+  {
+    id: 37,
+    name: "Personalized Photo Custom Case",
+    category: "phone-cases",
+    price: 16.99,
+    image: "phonecase.png",
+    description: "Fully customizable case where you can print any photo or design of your choice.",
+  },
+  {
+    id: 38,
+    name: "Rugged Full-Body Bumper Case",
+    category: "phone-cases",
+    price: 24.99,
+    image: "phonecase.png",
+    description: "Industrial-grade, full-coverage bumper case with corner airbags for extreme shock absorption.",
+  },
+
+  // Samsung Cases (8 products)
   {
     id: 4,
     name: "Samsung Galaxy S24 Case",
     category: "samsung-cases",
     price: 17.99,
     image: "samsung-case.png",
-    description: "Perfect fit case for Samsung Galaxy S24 series."
+    description: "Perfect fit case for Samsung Galaxy S24 series.",
   },
   {
     id: 5,
@@ -41,15 +92,65 @@ const products = [
     category: "samsung-cases",
     price: 14.99,
     image: "samsung-case.png",
-    description: "Stylish protection for Samsung A series phones."
+    description: "Stylish protection for Samsung A series phones.",
   },
+  {
+    id: 39,
+    name: "Galaxy S24 Ultra Silicone Case",
+    category: "samsung-cases",
+    price: 9.00,
+    image: "samsung-case.png",
+    description: "Soft silicone case, slim and durable, designed specifically for the S24 Ultra.",
+  },
+  {
+    id: 40,
+    name: "Samsung Magsafe Clear Case",
+    category: "samsung-cases",
+    price: 21.99,
+    image: "samsung-case.png",
+    description: "Transparent case with built-in magnets for seamless Magsafe accessory use.",
+  },
+  {
+    id: 41,
+    name: "Samsung Card Holder Wallet Case",
+    category: "samsung-cases",
+    price: 18.99,
+    image: "samsung-case.png",
+    description: "PU leather folio case with a detachable card wallet and a kickstand for media viewing.",
+  },
+  {
+    id: 42,
+    name: "Samsung Heavy Duty Armor Case",
+    category: "samsung-cases",
+    price: 22.99,
+    image: "samsung-case.png",
+    description: "Military-grade, dual-layer case with a tough polycarbonate back and a shock-absorbing TPU bumper.",
+  },
+  {
+    id: 43,
+    name: "Samsung A Series Silicone Case",
+    category: "samsung-cases",
+    price: 8.99,
+    image: "samsung-case.png",
+    description: "Lightweight, dust-proof silicone case tailored for the entire Samsung A series line.",
+  },
+  {
+    id: 44,
+    name: "Samsung Carbon Fiber Thin Case",
+    category: "samsung-cases",
+    price: 26.99,
+    image: "samsung-case.png",
+    description: "Ultra-thin 0.6mm aramid fiber case that offers a premium, minimalist feel with excellent durability.",
+  },
+
+  // Screen Protectors (8 products)
   {
     id: 6,
     name: "Tempered Glass Screen Protector",
     category: "screen-protectors",
     price: 9.99,
     image: "screenprotector.png",
-    description: "9H hardness tempered glass for maximum screen protection."
+    description: "9H hardness tempered glass for maximum screen protection.",
   },
   {
     id: 7,
@@ -57,15 +158,65 @@ const products = [
     category: "screen-protectors",
     price: 14.99,
     image: "screenprotector.png",
-    description: "Protects your screen and keeps your content private."
+    description: "Protects your screen and keeps your content private.",
   },
+  {
+    id: 45,
+    name: "9H Hardness Tempered Glass",
+    category: "screen-protectors",
+    price: 6.00,
+    image: "screenprotector.png",
+    description: "High-clarity, anti-fingerprint, and 9H hardness tempered glass for broad device compatibility.",
+  },
+  {
+    id: 46,
+    name: "Matte Anti-Glare Screen Protector",
+    category: "screen-protectors",
+    price: 11.99,
+    image: "screenprotector.png",
+    description: "Reduces glare and reflections, perfect for outdoor use while providing a paper-like texture.",
+  },
+  {
+    id: 47,
+    name: "3D Curved Edge Tempered Glass",
+    category: "screen-protectors",
+    price: 13.99,
+    image: "screenprotector.png",
+    description: "Full-coverage protection for curved-edge displays with a precision-fit application tray.",
+  },
+  {
+    id: 48,
+    name: "Hydrogel Film Screen Protector",
+    category: "screen-protectors",
+    price: 8.99,
+    image: "screenprotector.png",
+    description: "Self-healing TPU film that is ultra-thin, flexible, and perfect for curved screens.",
+  },
+  {
+    id: 49,
+    name: "Blue Light Blocking Screen Protector",
+    category: "screen-protectors",
+    price: 16.99,
+    image: "screenprotector.png",
+    description: "Filters harmful blue light to reduce eye strain during extended phone use.",
+  },
+  {
+    id: 50,
+    name: "Antibacterial Coated Screen Protector",
+    category: "screen-protectors",
+    price: 19.99,
+    image: "screenprotector.png",
+    description: "Tempered glass with an antimicrobial coating that eliminates 99% of surface bacteria.",
+  },
+
+  // Camera Protectors (8 products)
   {
     id: 8,
     name: "Camera Lens Protector",
     category: "camera-protectors",
     price: 7.99,
     image: "cameraprotector.png",
-    description: "Protects camera lenses from scratches and damage."
+    description: "Protects camera lenses from scratches and damage.",
   },
   {
     id: 9,
@@ -73,17 +224,66 @@ const products = [
     category: "camera-protectors",
     price: 12.99,
     image: "cameraprotector.png",
-    description: "Complete camera lens protection with multiple layers."
+    description: "Complete camera lens protection with multiple layers.",
+  },
+  {
+    id: 51,
+    name: "3-in-1 Camera Lens Protector Film",
+    category: "camera-protectors",
+    price: 6.00,
+    image: "cameraprotector.png",
+    description: "Individual protective film for each lens, compatible with iPhone 12 to 17 series.",
+  },
+  {
+    id: 52,
+    name: "Sapphire Camera Lens Protector",
+    category: "camera-protectors",
+    price: 17.99,
+    image: "cameraprotector.png",
+    description: "Ultra-durable protector made with synthetic sapphire crystal for scratch and crack resistance.",
+  },
+  {
+    id: 53,
+    name: "Metal Camera Lens Ring Cover",
+    category: "camera-protectors",
+    price: 14.99,
+    image: "cameraprotector.png",
+    description: "Anodized aluminum rings that add a stylish accent while protecting the camera bezel from impacts.",
+  },
+  {
+    id: 54,
+    name: "Camera Lens Protector with Lens Hood",
+    category: "camera-protectors",
+    price: 21.99,
+    image: "cameraprotector.png",
+    description: "Multi-layer protector that shields the lens from glare and impact, ideal for photography enthusiasts.",
+  },
+  {
+    id: 55,
+    name: "Self-Adhesive Camera Lens Skin",
+    category: "camera-protectors",
+    price: 5.99,
+    image: "cameraprotector.png",
+    description: "Bubble-free, ultra-thin TPU skin that wraps around the camera module for unobtrusive protection.",
+  },
+  {
+    id: 56,
+    name: "360° Rotating Camera Lens Cap",
+    category: "camera-protectors",
+    price: 18.99,
+    image: "cameraprotector.png",
+    description: "A unique sliding cap that rotates to cover or uncover your camera, adding a mechanical shutter feel.",
   },
 
-  // Charging Category
+  // ==================== CHARGING CATEGORY ====================
+  // Chargers (8 products)
   {
     id: 10,
     name: "Fast Wall Charger 20W",
     category: "chargers",
     price: 24.99,
     image: "charger.png",
-    description: "Quick charge adapter with 20W power output."
+    description: "Quick charge adapter with 20W power output.",
   },
   {
     id: 11,
@@ -91,15 +291,65 @@ const products = [
     category: "chargers",
     price: 29.99,
     image: "charger.png",
-    description: "Charge two devices simultaneously with smart power distribution."
+    description: "Charge two devices simultaneously with smart power distribution.",
   },
+  {
+    id: 57,
+    name: "45W Super Fast Travel Charger",
+    category: "chargers",
+    price: 34.99,
+    image: "charger.png",
+    description: "Ultra-compact wall charger with a single USB-C port delivering 45W, ideal for laptops and tablets.",
+  },
+  {
+    id: 58,
+    name: "4-Port 100W Desktop Charging Station",
+    category: "chargers",
+    price: 59.99,
+    image: "charger.png",
+    description: "Multiple USB-C and USB-A ports with smart power distribution to fast-charge multiple devices at once.",
+  },
+  {
+    id: 59,
+    name: "65W GaN Laptop & Phone Charger",
+    category: "chargers",
+    price: 48.99,
+    image: "charger.png",
+    description: "Premium Gallium Nitride (GaN) technology, compact and powerful enough to charge laptops and phones.",
+  },
+  {
+    id: 60,
+    name: "Dual USB-A Car Charger Adapter",
+    category: "chargers",
+    price: 12.99,
+    image: "charger.png",
+    description: "Compact car charger with two USB-A ports, providing a total of 36W for fast charging on the go.",
+  },
+  {
+    id: 61,
+    name: "Travel Universal Adapter with 4 USB Ports",
+    category: "chargers",
+    price: 39.99,
+    image: "charger.png",
+    description: "All-in-one global travel adapter with 4 USB ports and 2 AC outlets, covering 150+ countries.",
+  },
+  {
+    id: 62,
+    name: "USB-C to USB-C 100W Charger Block",
+    category: "chargers",
+    price: 26.99,
+    image: "charger.png",
+    description: "Compact and efficient 100W power delivery charger, perfect for high-power devices like MacBooks.",
+  },
+
+  // Wireless Chargers (8 products)
   {
     id: 12,
     name: "Wireless Charging Pad",
     category: "wireless-chargers",
     price: 19.99,
     image: "wirelesscharging.png",
-    description: "Slim wireless charging pad compatible with Qi-enabled devices."
+    description: "Slim wireless charging pad compatible with Qi-enabled devices.",
   },
   {
     id: 13,
@@ -107,15 +357,65 @@ const products = [
     category: "wireless-chargers",
     price: 34.99,
     image: "wirelesscharging.png",
-    description: "Stand-style wireless charger with fast charging support."
+    description: "Stand-style wireless charger with fast charging support.",
   },
+  {
+    id: 63,
+    name: "3-in-1 Magnetic Wireless Charging Stand",
+    category: "wireless-chargers",
+    price: 49.99,
+    image: "wirelesscharging.png",
+    description: "Charging station for your phone, earbuds, and watch; features strong magnetic alignment.",
+  },
+  {
+    id: 64,
+    name: "15W Magnetic Car Phone Holder Charger",
+    category: "wireless-chargers",
+    price: 14.00,
+    image: "wirelesscharging.png",
+    description: "Universal car mount with 15W automatic induction charging and a secure magnetic grip.",
+  },
+  {
+    id: 65,
+    name: "20W Fast Wireless Charging Pad",
+    category: "wireless-chargers",
+    price: 18.99,
+    image: "wirelesscharging.png",
+    description: "Compact charging pad offering 20W of power for a super-fast wireless charge for latest smartphones.",
+  },
+  {
+    id: 66,
+    name: "Portable Foldable 3-in-1 Travel Charger",
+    category: "wireless-chargers",
+    price: 39.99,
+    image: "wirelesscharging.png",
+    description: "Slim, foldable design that charges your phone, watch, and earbuds simultaneously, perfect for traveling.",
+  },
+  {
+    id: 67,
+    name: "Magsafe Charging Stand with Cooling Fan",
+    category: "wireless-chargers",
+    price: 44.99,
+    image: "wirelesscharging.png",
+    description: "Magnetic stand that includes a built-in fan to prevent overheating during high-speed charging.",
+  },
+  {
+    id: 68,
+    name: "LED Ambient Light Wireless Charger",
+    category: "wireless-chargers",
+    price: 22.99,
+    image: "wirelesscharging.png",
+    description: "Features customizable RGB light modes while providing 15W fast charging for your Qi-enabled devices.",
+  },
+
+  // Power Banks (8 products)
   {
     id: 14,
     name: "Power Bank 10000mAh",
     category: "power-banks",
     price: 39.99,
     image: "powerbank.png",
-    description: "Compact portable charger with 10000mAh capacity."
+    description: "Compact portable charger with 10000mAh capacity.",
   },
   {
     id: 15,
@@ -123,15 +423,65 @@ const products = [
     category: "power-banks",
     price: 54.99,
     image: "powerbank.png",
-    description: "High-capacity power bank for extended charging on the go."
+    description: "High-capacity power bank for extended charging on the go.",
   },
+  {
+    id: 69,
+    name: "22.5W 20000mAh Power Bank with Built-in Cables",
+    category: "power-banks",
+    price: 25.00,
+    image: "powerbank.png",
+    description: "High-capacity power bank with built-in Type-C and Lightning cables; supports fast charging.",
+  },
+  {
+    id: 70,
+    name: "10000mAh Power Bank with Digital Display",
+    category: "power-banks",
+    price: 20.00,
+    image: "powerbank.png",
+    description: "10000mAh capacity power bank with a smart digital display for precise battery monitoring.",
+  },
+  {
+    id: 71,
+    name: "Remax 20000mAh Power Bank with LED Flashlight",
+    category: "power-banks",
+    price: 39.00,
+    image: "powerbank.png",
+    description: "Multi-cable power bank with a built-in emergency flashlight and real-time battery display.",
+  },
+  {
+    id: 72,
+    name: "50000mAh High-Capacity Power Bank",
+    category: "power-banks",
+    price: 69.99,
+    image: "powerbank.png",
+    description: "Massive capacity power bank suitable for group trips or camping; can recharge a phone multiple times.",
+  },
+  {
+    id: 73,
+    name: "150W Laptop Power Bank",
+    category: "power-banks",
+    price: 119.99,
+    image: "powerbank.png",
+    description: "High-powered 26800mAh battery with AC outlet and DC ports, designed to charge laptops and drones.",
+  },
+  {
+    id: 74,
+    name: "Magnetic Wireless Power Bank",
+    category: "power-banks",
+    price: 42.99,
+    image: "powerbank.png",
+    description: "Compact 10000mAh battery with a magnetic wireless charger, snaps perfectly onto the back of iPhones.",
+  },
+
+  // Charging Cables (8 products)
   {
     id: 16,
     name: "USB-C Fast Charging Cable",
     category: "charging-cables",
     price: 12.99,
     image: "fastchargecable.png",
-    description: "Durable USB-C cable with fast charging support."
+    description: "Durable USB-C cable with fast charging support.",
   },
   {
     id: 17,
@@ -139,7 +489,7 @@ const products = [
     category: "charging-cables",
     price: 14.99,
     image: "fastchargecable.png",
-    description: "MFi certified Lightning cable for Apple devices."
+    description: "MFi certified Lightning cable for Apple devices.",
   },
   {
     id: 18,
@@ -147,17 +497,58 @@ const products = [
     category: "charging-cables",
     price: 16.99,
     image: "fastchargecable.png",
-    description: "3-in-1 cable with USB-C, Lightning, and Micro-USB connectors."
+    description: "3-in-1 cable with USB-C, Lightning, and Micro-USB connectors.",
+  },
+  {
+    id: 75,
+    name: "60W Braided Nylon USB-C to USB-C Cable",
+    category: "charging-cables",
+    price: 10.99,
+    image: "fastchargecable.png",
+    description: "High-speed, durable 60W braided cable for fast charging and data transfer.",
+  },
+  {
+    id: 76,
+    name: "100W 5A USB-C Fast Charge Cable",
+    category: "charging-cables",
+    price: 15.99,
+    image: "fastchargecable.png",
+    description: "Power Delivery 100W cable for high-speed charging of laptops and tablets, with reinforced connectors.",
+  },
+  {
+    id: 77,
+    name: "Retractable 3-in-1 Charging Cable",
+    category: "charging-cables",
+    price: 12.99,
+    image: "fastchargecable.png",
+    description: "Space-saving retractable design with built-in USB-C, Lightning, and Micro-USB connectors.",
+  },
+  {
+    id: 78,
+    name: "120W USB-C to USB-C Braided Cable",
+    category: "charging-cables",
+    price: 14.99,
+    image: "fastchargecable.png",
+    description: "Extra-long (2m) braided cable supporting 120W output for laptops, phones, and other high-power devices.",
+  },
+  {
+    id: 79,
+    name: "Right Angle USB-C Gaming Cable",
+    category: "charging-cables",
+    price: 11.99,
+    image: "fastchargecable.png",
+    description: "90-degree angled connector designed to reduce strain during gaming while providing fast data sync.",
   },
 
-  // Audio Category
+  // ==================== AUDIO CATEGORY ====================
+  // Earphones (wired) (8 products)
   {
     id: 19,
     name: "Wired Earphones",
     category: "earphones",
     price: 19.99,
     image: "earphones.png",
-    description: "Classic wired earphones with clear sound quality."
+    description: "Classic wired earphones with clear sound quality.",
   },
   {
     id: 20,
@@ -165,15 +556,65 @@ const products = [
     category: "earphones",
     price: 24.99,
     image: "earphones.png",
-    description: "Comfortable in-ear design with built-in microphone."
+    description: "Comfortable in-ear design with built-in microphone.",
   },
+  {
+    id: 80,
+    name: "ACEFAST L4 Wired Earphones",
+    category: "earphones",
+    price: 16.99,
+    image: "earphones.png",
+    description: "Ergonomic in-ear design with an HD microphone and all-in-one remote control.",
+  },
+  {
+    id: 81,
+    name: "Sony Type-C Earphones IER-EX15C",
+    category: "earphones",
+    price: 32.00,
+    image: "earphones.png",
+    description: "Original Sony earphones with clear sound, rich bass, and call support for Type-C devices.",
+  },
+  {
+    id: 82,
+    name: "JBL Tune 110 Wired Earphones",
+    category: "earphones",
+    price: 19.99,
+    image: "earphones.png",
+    description: "JBL Pure Bass sound with a one-button remote and tangle-free flat cable.",
+  },
+  {
+    id: 83,
+    name: "Noise-Isolating Metal Wired Earbuds",
+    category: "earphones",
+    price: 27.99,
+    image: "earphones.png",
+    description: "Durable aluminum housing with high-sensitivity drivers for crisp highs and deep bass.",
+  },
+  {
+    id: 84,
+    name: "Ultra-Thin Flat Wire Earphones",
+    category: "earphones",
+    price: 13.99,
+    image: "earphones.png",
+    description: "Tangle-free flat cable design with a lightweight build, ideal for sports and travel.",
+  },
+  {
+    id: 85,
+    name: "3.5mm Stereo Gaming Earphones",
+    category: "earphones",
+    price: 22.99,
+    image: "earphones.png",
+    description: "Wired earphones with a 3.5mm jack, featuring an in-line microphone and enhanced bass for gaming.",
+  },
+
+  // Headphones (over-ear) (8 products)
   {
     id: 21,
     name: "Over-Ear Headphones",
     category: "headphones",
     price: 59.99,
     image: "headphones.png",
-    description: "Comfortable over-ear headphones with noise isolation."
+    description: "Comfortable over-ear headphones with noise isolation.",
   },
   {
     id: 22,
@@ -181,15 +622,65 @@ const products = [
     category: "headphones",
     price: 79.99,
     image: "headphones.png",
-    description: "Premium wireless headphones with long battery life."
+    description: "Premium wireless headphones with long battery life.",
   },
+  {
+    id: 86,
+    name: "CAD Audio MH200 Studio Headphones",
+    category: "headphones",
+    price: 70.00,
+    image: "headphones.png",
+    description: "Closed-back studio headphones perfect for recording, DJing, and casual listening.",
+  },
+  {
+    id: 87,
+    name: "Audio-Technica ATH-M30x",
+    category: "headphones",
+    price: 75.00,
+    image: "headphones.png",
+    description: "Professional-grade closed-back headphones for music production and gaming.",
+  },
+  {
+    id: 88,
+    name: "Noise Cancelling Headphones with Mic",
+    category: "headphones",
+    price: 49.99,
+    image: "headphones.png",
+    description: "Over-ear headphones with 40-hour battery life, an adjustable mic, and deep bass performance.",
+  },
+  {
+    id: 89,
+    name: "RGB Light-Up Gaming Headset",
+    category: "headphones",
+    price: 45.99,
+    image: "headphones.png",
+    description: "Wired headset with virtual 7.1 surround sound, a noise-cancelling microphone, and customizable RGB lighting.",
+  },
+  {
+    id: 90,
+    name: "Wireless Foldable Travel Headphones",
+    category: "headphones",
+    price: 69.99,
+    image: "headphones.png",
+    description: "Portable, foldable design with soft ear cushions, supporting up to 50 hours of playtime.",
+  },
+  {
+    id: 91,
+    name: "Premium Hybrid ANC Headphones",
+    category: "headphones",
+    price: 99.99,
+    image: "headphones.png",
+    description: "High-end headphones with active noise cancellation, up to 30 hours of battery life, and Hi-Fi sound.",
+  },
+
+  // Wireless Earbuds (8 products)
   {
     id: 23,
     name: "True Wireless Earbuds",
     category: "wireless-earbuds",
     price: 49.99,
     image: "earbuds.png",
-    description: "Compact true wireless earbuds with charging case."
+    description: "Compact true wireless earbuds with charging case.",
   },
   {
     id: 24,
@@ -197,15 +688,65 @@ const products = [
     category: "wireless-earbuds",
     price: 89.99,
     image: "earbuds.png",
-    description: "Premium earbuds with active noise cancellation."
+    description: "Premium earbuds with active noise cancellation.",
   },
+  {
+    id: 92,
+    name: "Soundcore P30i True Wireless Earbuds",
+    category: "wireless-earbuds",
+    price: 55.00,
+    image: "earbuds.png",
+    description: "Earbuds with active noise cancellation, big bass, and tap controls.",
+  },
+  {
+    id: 93,
+    name: "Marshall MINOR IV Wireless Earbuds",
+    category: "wireless-earbuds",
+    price: 175.00,
+    image: "earbuds.png",
+    description: "Iconic design with 7-hour playtime and 30+ hours with the charging case.",
+  },
+  {
+    id: 94,
+    name: "Air4 Bluetooth 5.3 Earbuds",
+    category: "wireless-earbuds",
+    price: 39.99,
+    image: "earbuds.png",
+    description: "Long battery life (32 hours with case), premium sound, and dual-device connectivity.",
+  },
+  {
+    id: 95,
+    name: "Gaming TWS Earbuds with Ultra-Low Latency",
+    category: "wireless-earbuds",
+    price: 64.99,
+    image: "earbuds.png",
+    description: "Dedicated game mode, RGB LED indicators, and powerful 13mm drivers for immersive gaming audio.",
+  },
+  {
+    id: 96,
+    name: "Premium Wireless Earbuds with Touch Control",
+    category: "wireless-earbuds",
+    price: 49.99,
+    image: "earbuds.png",
+    description: "Smart touch control sensors and AI noise reduction for high-quality calls during windy conditions.",
+  },
+  {
+    id: 97,
+    name: "Wireless Earbuds with Charging Display Case",
+    category: "wireless-earbuds",
+    price: 34.99,
+    image: "earbuds.png",
+    description: "LED screen on the charging case shows battery percentage for both earbuds and the case.",
+  },
+
+  // Bluetooth Speakers (8 products)
   {
     id: 25,
     name: "Portable Bluetooth Speaker",
     category: "bluetooth-speaker",
     price: 44.99,
     image: "bluetooth-speaker.png",
-    description: "Compact speaker with powerful sound and bass."
+    description: "Compact speaker with powerful sound and bass.",
   },
   {
     id: 26,
@@ -213,17 +754,66 @@ const products = [
     category: "bluetooth-speaker",
     price: 29.99,
     image: "bluetooth-speaker.png",
-    description: "Ultra-portable speaker perfect for travel."
+    description: "Ultra-portable speaker perfect for travel.",
+  },
+  {
+    id: 98,
+    name: "Soundcore Boom 2 Outdoor Speaker",
+    category: "bluetooth-speaker",
+    price: 59.99,
+    image: "bluetooth-speaker.png",
+    description: "Palm-sized speaker with 15W powerful output, bass, and IP67 waterproof rating.",
+  },
+  {
+    id: 99,
+    name: "80W Party TWS Speaker with Lights",
+    category: "bluetooth-speaker",
+    price: 89.99,
+    image: "bluetooth-speaker.png",
+    description: "High-wattage speaker with multi-colored flashing lights, supporting TWS pairing for stereo sound.",
+  },
+  {
+    id: 100,
+    name: "RadioShack 50W Portable Speaker",
+    category: "bluetooth-speaker",
+    price: 74.99,
+    image: "bluetooth-speaker.png",
+    description: "50W output speaker with Bluetooth 5.3, supporting USB, TF card, and AUX input.",
+  },
+  {
+    id: 101,
+    name: "Edifier M380 Compact Bluetooth Speaker",
+    category: "bluetooth-speaker",
+    price: 39.99,
+    image: "bluetooth-speaker.png",
+    description: "Balanced stereo sound with dual drivers, providing high-clarity audio for home or travel.",
+  },
+  {
+    id: 102,
+    name: "Kisonli Q18 Speaker with RGB Light",
+    category: "bluetooth-speaker",
+    price: 25.00,
+    image: "bluetooth-speaker.png",
+    description: "Stylish portable speaker featuring dynamic RGB lighting for parties and casual listening.",
+  },
+  {
+    id: 103,
+    name: "IPX7 Waterproof Shower Speaker",
+    category: "bluetooth-speaker",
+    price: 22.99,
+    image: "bluetooth-speaker.png",
+    description: "Super compact speaker with a suction cup, designed specifically for humid bathroom environments.",
   },
 
-  // Daily Accessories Category
+  // ==================== DAILY ACCESSORIES CATEGORY ====================
+  // Phone Stands (8 products)
   {
     id: 27,
     name: "Adjustable Phone Stand",
     category: "phone-stands",
     price: 14.99,
     image: "phonestand.png",
-    description: "Foldable stand with adjustable viewing angles."
+    description: "Foldable stand with adjustable viewing angles.",
   },
   {
     id: 28,
@@ -231,15 +821,65 @@ const products = [
     category: "phone-stands",
     price: 19.99,
     image: "phonestand.png",
-    description: "Sturdy desktop stand for hands-free use."
+    description: "Sturdy desktop stand for hands-free use.",
   },
+  {
+    id: 104,
+    name: "720° Rotating Desktop Phone Stand",
+    category: "phone-stands",
+    price: 9.99,
+    image: "phonestand.png",
+    description: "Fully rotatable stand allowing users to switch between portrait and landscape orientations.",
+  },
+  {
+    id: 105,
+    name: "Retractable & Foldable Travel Stand",
+    category: "phone-stands",
+    price: 7.99,
+    image: "phonestand.png",
+    description: "Credit-card-sized stand that fits in a wallet, offering discreet and stable support anywhere.",
+  },
+  {
+    id: 106,
+    name: "Heavy-Duty Metal Phone Stand",
+    category: "phone-stands",
+    price: 16.99,
+    image: "phonestand.png",
+    description: "Solid aluminum alloy stand with non-slip silicone pads, supporting tablets and phones.",
+  },
+  {
+    id: 107,
+    name: "Adjustable Height Desk Phone Holder",
+    category: "phone-stands",
+    price: 21.99,
+    image: "phonestand.png",
+    description: "Ergonomic design with up to 144mm height adjustment to reduce neck strain during long calls.",
+  },
+  {
+    id: 108,
+    name: "3-in-1 Multi-Angle Phone & Tablet Stand",
+    category: "phone-stands",
+    price: 14.99,
+    image: "phonestand.png",
+    description: "Features a reinforced base for precise angle adjustments, suitable for both smartphones and tablets.",
+  },
+  {
+    id: 109,
+    name: "Foldable Stand with MagSafe Magnet",
+    category: "phone-stands",
+    price: 18.99,
+    image: "phonestand.png",
+    description: "Foldable, portable aluminum stand with a strong magnetic grip for compatible smartphones.",
+  },
+
+  // Car Phone Holders (8 products)
   {
     id: 29,
     name: "Car Phone Holder Mount",
     category: "car-holders",
     price: 24.99,
     image: "carholder.png",
-    description: "Secure car mount with easy one-hand operation."
+    description: "Secure car mount with easy one-hand operation.",
   },
   {
     id: 30,
@@ -247,15 +887,65 @@ const products = [
     category: "car-holders",
     price: 19.99,
     image: "carholder.png",
-    description: "Strong magnetic holder for quick phone attachment."
+    description: "Strong magnetic holder for quick phone attachment.",
   },
+  {
+    id: 110,
+    name: "Air Vent Magnetic Phone Holder",
+    category: "car-holders",
+    price: 8.00,
+    image: "carholder.png",
+    description: "Super sticky suction phone mount for dashboard, windshield, or air vents.",
+  },
+  {
+    id: 111,
+    name: "Universal Car Dashboard Phone Mount",
+    category: "car-holders",
+    price: 12.99,
+    image: "carholder.png",
+    description: "Rotatable mount with a powerful suction cup, provides hands-free navigation and calling.",
+  },
+  {
+    id: 112,
+    name: "CD Slot Magnetic Car Phone Mount",
+    category: "car-holders",
+    price: 14.99,
+    image: "carholder.png",
+    description: "Utilizes the car's CD slot for a clean and unobstructed mount, compatible with all phone sizes.",
+  },
+  {
+    id: 113,
+    name: "Wireless Charging Car Mount with Auto-Clamp",
+    category: "car-holders",
+    price: 29.99,
+    image: "carholder.png",
+    description: "Automatically opens and clamps your phone when placed; supports 15W fast wireless charging.",
+  },
+  {
+    id: 114,
+    name: "Backseat Headrest Tablet Holder",
+    category: "car-holders",
+    price: 18.99,
+    image: "carholder.png",
+    description: "Adjustable holder designed specifically for backseat passengers to watch movies hands-free.",
+  },
+  {
+    id: 115,
+    name: "Universal Car Interior Organizer Box",
+    category: "car-holders",
+    price: 15.99,
+    image: "carholder.png",
+    description: "Multi-functional storage box that fits into the seat gap, holding phones and other small items.",
+  },
+
+  // Smart Watches / Fitness Trackers (8 products)
   {
     id: 31,
     name: "Smart Watch Fitness Tracker",
     category: "smart-watches",
     price: 69.99,
     image: "smartwatch.png",
-    description: "Feature-rich fitness tracker with heart rate monitor."
+    description: "Feature-rich fitness tracker with heart rate monitor.",
   },
   {
     id: 32,
@@ -263,8 +953,56 @@ const products = [
     category: "smart-watches",
     price: 129.99,
     image: "smartwatch.png",
-    description: "Advanced smartwatch with GPS and health tracking."
-  }
+    description: "Advanced smartwatch with GPS and health tracking.",
+  },
+  {
+    id: 116,
+    name: "Kieslect Lady Watch L11",
+    category: "smart-watches",
+    price: 35.00,
+    image: "smartwatch.png",
+    description: "Stylish women's smartwatch with a curved 2.5D screen, tracking heart rate and sleep.",
+  },
+  {
+    id: 117,
+    name: "WITHit Deca AMOLED Smartwatch",
+    category: "smart-watches",
+    price: 89.99,
+    image: "smartwatch.png",
+    description: "Vibrant AMOLED touchscreen with 24/7 health monitoring, step counting, and calorie tracking.",
+  },
+  {
+    id: 118,
+    name: "M7 Smart Fitness Band",
+    category: "smart-watches",
+    price: 5.00,
+    image: "smartwatch.png",
+    description: "Essential tracker for steps, sleep, and basic notifications, suitable for simple daily needs.",
+  },
+  {
+    id: 119,
+    name: "Rugged Outdoor GPS Smartwatch",
+    category: "smart-watches",
+    price: 149.99,
+    image: "smartwatch.png",
+    description: "Military-standard ruggedness with GPS and 14-day battery life, designed for outdoor adventures.",
+  },
+  {
+    id: 120,
+    name: "1.43\" AMOLED Bluetooth Calling Watch",
+    category: "smart-watches",
+    price: 49.99,
+    image: "smartwatch.png",
+    description: "Large display smartwatch with over 100 sports modes, Bluetooth calling, and a built-in voice assistant.",
+  },
+  {
+    id: 121,
+    name: "Kids GPS Tracker Smart Watch",
+    category: "smart-watches",
+    price: 59.99,
+    image: "smartwatch.png",
+    description: "Durable smartwatch for children with GPS tracking, SOS calling, and parental control features.",
+  },
 ];
 
 // Helper functions to work with products
@@ -283,7 +1021,7 @@ function getAllProducts() {
  * @returns {Array} Products matching the category
  */
 function getProductsByCategory(category) {
-  return products.filter(product => product.category === category);
+  return products.filter((product) => product.category === category);
 }
 
 /**
@@ -292,7 +1030,7 @@ function getProductsByCategory(category) {
  * @returns {Object|undefined} The product or undefined if not found
  */
 function getProductById(id) {
-  return products.find(product => product.id === id);
+  return products.find((product) => product.id === id);
 }
 
 /**
@@ -302,9 +1040,10 @@ function getProductById(id) {
  */
 function searchProducts(searchTerm) {
   const term = searchTerm.toLowerCase();
-  return products.filter(product => 
-    product.name.toLowerCase().includes(term) ||
-    product.description.toLowerCase().includes(term)
+  return products.filter(
+    (product) =>
+      product.name.toLowerCase().includes(term) ||
+      product.description.toLowerCase().includes(term),
   );
 }
 
@@ -315,8 +1054,8 @@ function searchProducts(searchTerm) {
  * @returns {Array} Products within the price range
  */
 function getProductsByPriceRange(minPrice, maxPrice) {
-  return products.filter(product => 
-    product.price >= minPrice && product.price <= maxPrice
+  return products.filter(
+    (product) => product.price >= minPrice && product.price <= maxPrice,
   );
 }
 
@@ -325,7 +1064,7 @@ function getProductsByPriceRange(minPrice, maxPrice) {
  * @returns {Array} Array of unique category names
  */
 function getAllCategories() {
-  return [...new Set(products.map(product => product.category))];
+  return [...new Set(products.map((product) => product.category))];
 }
 
 /**
@@ -334,7 +1073,7 @@ function getAllCategories() {
  * @returns {string} Formatted price string
  */
 function formatPrice(price) {
-  return '$' + price.toFixed(2);
+  return "$" + price.toFixed(2);
 }
 
 /**
@@ -346,20 +1085,20 @@ function formatPrice(price) {
 function generateProductCard(product, imagePath = '../assets/images/products/') {
   return `
     <div class="col-lg-3 col-md-6">
-      <a href="product-details.html?id=${product.id}" class="text-decoration-none text-dark">
-        <div class="card h-100 text-center product-card">
+      <div class="card product-box h-100">
+        <a href="product-details.html?id=${product.id}" class="text-decoration-none text-dark d-flex flex-column h-100">
           <img
             src="${imagePath}${product.image}"
             class="card-img-top"
             alt="${product.name}"
           />
-          <div class="card-body">
+          <div class="card-body text-center d-flex flex-column flex-grow-1">
             <h5 class="card-title">${product.name}</h5>
-            <p class="card-text text-muted">${product.description}</p>
-            <p class="fw-bold text-primary">${formatPrice(product.price)}</p>
+            <p class="product-price">${formatPrice(product.price)}</p>
+            <button class="btn btn-dark w-100 mt-auto">Add to Cart</button>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   `;
 }
@@ -370,14 +1109,18 @@ function generateProductCard(product, imagePath = '../assets/images/products/') 
  * @param {Array} productsToRender - Array of products to render
  * @param {string} imagePath - Base path for images
  */
-function renderProducts(containerId, productsToRender, imagePath = '../assets/images/products/') {
+function renderProducts(
+  containerId,
+  productsToRender,
+  imagePath = "../assets/images/products/",
+) {
   const container = document.getElementById(containerId);
   if (!container) {
     console.error(`Container with ID "${containerId}" not found.`);
     return;
   }
-  
+
   container.innerHTML = productsToRender
-    .map(product => generateProductCard(product, imagePath))
-    .join('');
+    .map((product) => generateProductCard(product, imagePath))
+    .join("");
 }
