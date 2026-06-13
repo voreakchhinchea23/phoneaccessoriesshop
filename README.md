@@ -7,7 +7,7 @@
 
 **Your one-stop shop for premium phone accessories**
 
-[View Demo](#) • [Report Issue](https://github.com/yourusername/vrs/issues) • [Contact](#contact)
+[View Demo](#) • [Report Issue](https://github.com/voreakchhinchea23/phoneaccessoriesshop/issues) • [Contact](#contact)
 
 </div>
 
@@ -137,8 +137,8 @@ vrs/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/vrs.git
-   cd vrs
+   https://github.com/voreakchhinchea23/phoneaccessoriesshop
+   cd phoneaccessoriesshop
    ```
 
 2. **Open the project**
@@ -223,8 +223,7 @@ We welcome contributions! Here's how you can help:
 
 Have questions or suggestions? Feel free to reach out!
 
-- **Email**: your-email@example.com
-- **Website**: [yourwebsite.com](https://yourwebsite.com)
+- **Email**: cc.voreak@gmail.com
 
 ---
 
