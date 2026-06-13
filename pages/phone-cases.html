@@ -184,194 +184,8 @@
       </section>
       
       <section class="container my-5">
-        <div class="row g-4">
-          <!-- Product Box -->
-          <div class="col-lg-3 col-md-6">
-            <div class="card product-box h-100">
-              <a
-                href="product-details.html"
-                class="text-decoration-none text-dark"
-              >
-                <img
-                  src="../assets/images/products/phonecase.png"
-                  class="card-img-top"
-                  alt="Phone Case"
-                />
-
-                <div class="card-body text-center">
-                  <h5 class="card-title">Transparent Phone Case</h5>
-
-                  <p class="product-price">$12.99</p>
-
-                  <button class="btn btn-dark w-100">Add to Cart</button>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <!-- Product Box -->
-          <div class="col-lg-3 col-md-6">
-            <div class="card product-box h-100">
-              <a
-                href="product-details.html"
-                class="text-decoration-none text-dark"
-              >
-                <img
-                  src="../assets/images/products/phonecase.png"
-                  class="card-img-top"
-                  alt="Phone Case"
-                />
-
-                <div class="card-body text-center">
-                  <h5 class="card-title">Matte Black Case</h5>
-
-                  <p class="product-price">$14.99</p>
-
-                  <button class="btn btn-dark w-100">Add to Cart</button>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <!-- Product Box -->
-          <div class="col-lg-3 col-md-6">
-            <div class="card product-box h-100">
-              <a
-                href="product-details.html"
-                class="text-decoration-none text-dark"
-              >
-                <img
-                  src="../assets/images/products/phonecase.png"
-                  class="card-img-top"
-                  alt="Phone Case"
-                />
-
-                <div class="card-body text-center">
-                  <h5 class="card-title">Luxury Leather Case</h5>
-
-                  <p class="product-price">$18.99</p>
-
-                  <button class="btn btn-dark w-100">Add to Cart</button>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <!-- Product Box -->
-          <div class="col-lg-3 col-md-6">
-            <div class="card product-box h-100">
-              <a
-                href="product-details.html"
-                class="text-decoration-none text-dark"
-              >
-                <img
-                  src="../assets/images/products/phonecase.png"
-                  class="card-img-top"
-                  alt="Phone Case"
-                />
-
-                <div class="card-body text-center">
-                  <h5 class="card-title">Shockproof Case</h5>
-
-                  <p class="product-price">$16.99</p>
-
-                  <button class="btn btn-dark w-100">Add to Cart</button>
-                </div>
-              </a>
-            </div>
-          </div>
-          <!-- Product Box -->
-          <div class="col-lg-3 col-md-6">
-            <div class="card product-box h-100">
-              <a
-                href="product-details.html"
-                class="text-decoration-none text-dark"
-              >
-                <img
-                  src="../assets/images/products/phonecase.png"
-                  class="card-img-top"
-                  alt="Phone Case"
-                />
-
-                <div class="card-body text-center">
-                  <h5 class="card-title">Shockproof Case</h5>
-
-                  <p class="product-price">$16.99</p>
-
-                  <button class="btn btn-dark w-100">Add to Cart</button>
-                </div>
-              </a>
-            </div>
-          </div>
-          <!-- Product Box -->
-          <div class="col-lg-3 col-md-6">
-            <div class="card product-box h-100">
-              <a
-                href="product-details.html"
-                class="text-decoration-none text-dark"
-              >
-                <img
-                  src="../assets/images/products/phonecase.png"
-                  class="card-img-top"
-                  alt="Phone Case"
-                />
-
-                <div class="card-body text-center">
-                  <h5 class="card-title">Shockproof Case</h5>
-
-                  <p class="product-price">$16.99</p>
-
-                  <button class="btn btn-dark w-100">Add to Cart</button>
-                </div>
-              </a>
-            </div>
-          </div>
-          <!-- Product Box -->
-          <div class="col-lg-3 col-md-6">
-            <div class="card product-box h-100">
-              <a
-                href="product-details.html"
-                class="text-decoration-none text-dark"
-              >
-                <img
-                  src="../assets/images/products/phonecase.png"
-                  class="card-img-top"
-                  alt="Phone Case"
-                />
-
-                <div class="card-body text-center">
-                  <h5 class="card-title">Shockproof Case</h5>
-
-                  <p class="product-price">$16.99</p>
-
-                  <button class="btn btn-dark w-100">Add to Cart</button>
-                </div>
-              </a>
-            </div>
-          </div>
-          <!-- Product Box -->
-          <div class="col-lg-3 col-md-6">
-            <div class="card product-box h-100">
-              <a
-                href="product-details.html"
-                class="text-decoration-none text-dark"
-              >
-                <img
-                  src="../assets/images/products/phonecase.png"
-                  class="card-img-top"
-                  alt="Phone Case"
-                />
-
-                <div class="card-body text-center">
-                  <h5 class="card-title">Shockproof Case</h5>
-
-                  <p class="product-price">$16.99</p>
-
-                  <button class="btn btn-dark w-100">Add to Cart</button>
-                </div>
-              </a>
-            </div>
-          </div>
+        <div class="row g-4" id="phone-cases-products">
+          <!-- Products will be loaded dynamically from product.js -->
         </div>
       </section>
     </main>
@@ -459,5 +273,13 @@
     <!--End Footer-->
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/product.js"></script>
+    <script>
+      // Load phone case products dynamically when page loads
+      document.addEventListener('DOMContentLoaded', function() {
+        const phoneCaseProducts = getProductsByCategory('phone-cases');
+        renderProducts('phone-cases-products', phoneCaseProducts);
+      });
+    </script>
   </body>
 </html>
