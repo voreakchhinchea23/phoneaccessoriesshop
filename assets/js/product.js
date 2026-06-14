@@ -1007,81 +1007,14 @@ const products = [
 
 // Helper functions to work with products
 
-/**
- * Get all products
- * @returns {Array} All products
- */
-function getAllProducts() {
-  return products;
-}
-
-/**
- * Get products by category
- * @param {string} category - The category to filter by
- * @returns {Array} Products matching the category
- */
 function getProductsByCategory(category) {
   return products.filter((product) => product.category === category);
 }
 
-/**
- * Get a single product by ID
- * @param {number} id - The product ID
- * @returns {Object|undefined} The product or undefined if not found
- */
-function getProductById(id) {
-  return products.find((product) => product.id === id);
-}
-
-/**
- * Search products by name
- * @param {string} searchTerm - The search term
- * @returns {Array} Products matching the search term
- */
-function searchProducts(searchTerm) {
-  const term = searchTerm.toLowerCase();
-  return products.filter(
-    (product) =>
-      product.name.toLowerCase().includes(term) ||
-      product.description.toLowerCase().includes(term),
-  );
-}
-
-/**
- * Get products within a price range
- * @param {number} minPrice - Minimum price
- * @param {number} maxPrice - Maximum price
- * @returns {Array} Products within the price range
- */
-function getProductsByPriceRange(minPrice, maxPrice) {
-  return products.filter(
-    (product) => product.price >= minPrice && product.price <= maxPrice,
-  );
-}
-
-/**
- * Get all unique categories
- * @returns {Array} Array of unique category names
- */
-function getAllCategories() {
-  return [...new Set(products.map((product) => product.category))];
-}
-
-/**
- * Format price for display
- * @param {number} price - The price to format
- * @returns {string} Formatted price string
- */
 function formatPrice(price) {
   return "$" + price.toFixed(2);
 }
 
-/**
- * Generate HTML for a product card
- * @param {Object} product - The product object
- * @param {string} imagePath - Base path for images (default: '../assets/images/products/')
- * @returns {string} HTML string for the product card
- */
 function generateProductCard(product, imagePath = '../assets/images/products/') {
   return `
     <div class="col-lg-3 col-md-6">
@@ -1103,12 +1036,6 @@ function generateProductCard(product, imagePath = '../assets/images/products/') 
   `;
 }
 
-/**
- * Render products to a container element
- * @param {string} containerId - The ID of the container element
- * @param {Array} productsToRender - Array of products to render
- * @param {string} imagePath - Base path for images
- */
 function renderProducts(
   containerId,
   productsToRender,
