@@ -17,7 +17,7 @@ const products = [
     name: "Rugged Armor Phone Case",
     category: "phone-cases",
     price: 19.99,
-    image: "phonecase.png",
+    image: "case-rugged-armor.png",
     description: "Heavy-duty protection with shock-absorbing technology.",
   },
   {
@@ -25,7 +25,7 @@ const products = [
     name: "Clear Transparent Case",
     category: "phone-cases",
     price: 12.99,
-    image: "phonecase.png",
+    image: "case-clear-tran.png",
     description: "Crystal clear case that shows off your phone's design.",
   },
   {
@@ -33,15 +33,15 @@ const products = [
     name: "Kawaii Cute Bear Case",
     category: "phone-cases",
     price: 11.99,
-    image: "phonecase.png",
+    image: "case-kawaii.png",
     description: "Adorable bear design case with soft silicone edges for a fun look and solid protection.",
   },
   {
     id: 34,
-    name: "Marble Pattern PC Case",
+    name: "Marble Pattern Case",
     category: "phone-cases",
     price: 13.99,
-    image: "phonecase.png",
+    image: "case-marble.png",
     description: "Sleek polycarbonate case with a stylish marble finish and anti-fingerprint coating.",
   },
   {
@@ -49,7 +49,7 @@ const products = [
     name: "Wallet Flip Case",
     category: "phone-cases",
     price: 18.99,
-    image: "phonecase.png",
+    image: "case-wallet-flip.png",
     description: "Premium PU leather folio with card slots and a built-in stand for hands-free viewing.",
   },
   {
@@ -57,7 +57,7 @@ const products = [
     name: "Luxury Diamond Glitter Case",
     category: "phone-cases",
     price: 22.99,
-    image: "phonecase.png",
+    image: "case-diamond.png",
     description: "Sparkling epoxy resin case with a 3D diamond texture for a glamorous look.",
   },
   {
@@ -65,7 +65,7 @@ const products = [
     name: "Personalized Photo Custom Case",
     category: "phone-cases",
     price: 16.99,
-    image: "phonecase.png",
+    image: "case-personalized.png",
     description: "Fully customizable case where you can print any photo or design of your choice.",
   },
   {
@@ -73,7 +73,7 @@ const products = [
     name: "Rugged Full-Body Bumper Case",
     category: "phone-cases",
     price: 24.99,
-    image: "phonecase.png",
+    image: "case-rugged-fullbody.png",
     description: "Industrial-grade, full-coverage bumper case with corner airbags for extreme shock absorption.",
   },
 
