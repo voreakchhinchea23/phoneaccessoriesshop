@@ -159,7 +159,7 @@
                 class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
                 id="cart-count"
               >
-                0
+                3
               </span>
             </a>
 
@@ -179,21 +179,37 @@
     </nav>
     <!-- End Navbar -->
     <main>
-
       <!-- Page Header Banner -->
       <section class="bg-dark text-white text-center py-5">
         <div class="container">
           <h1 class="display-5 fw-bold">Protection</h1>
-          <p class="lead text-white-50">
-            Keep your phone protected.
-          </p>
+          <p class="lead text-white-50">Keep your phone protected.</p>
         </div>
       </section>
-      
+
       <section class="container my-5">
-        <div class="row g-4" id="phone-cases-products">
-        </div>
+        <div class="row g-4" id="phone-cases-products"></div>
       </section>
+
+      <!-- Pagination -->
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
     </main>
 
     <!--Footer-->
@@ -281,10 +297,10 @@
     <script src="../assets/js/script.js"></script>
     <script src="../assets/js/product.js"></script>
     <script>
-      // Load phone case products 
-      document.addEventListener('DOMContentLoaded', function() {
-        const phoneCaseProducts = getProductsByCategory('phone-cases');
-        renderProducts('phone-cases-products', phoneCaseProducts);
+      // Load phone case products
+      document.addEventListener("DOMContentLoaded", function () {
+        const phoneCaseProducts = getProductsByCategory("phone-cases");
+        renderProducts("phone-cases-products", phoneCaseProducts);
       });
     </script>
   </body>
